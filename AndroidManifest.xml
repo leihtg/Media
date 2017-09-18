@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission  android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:icon="@drawable/aaa"
+        android:label="@string/app_name" >
+         <activity android:name=".luxiangji.liulan"></activity>
+          <activity android:name=".luxiangji.luxiang"></activity>
+          
+         <activity android:name=".zhaoxiangji.ExistCameraTest"></activity>
+         <activity android:name=".zhaoxiangji.LiulanText"></activity>
+        
+        
+           <activity android:name=".tupian.BaseActivity"></activity>
+           <activity android:name=".tupian.GalleryActivity"></activity>
+           <activity android:name=".tupian.ImageActivity"></activity>
+           <activity android:name=".tupian.SD"></activity>
+        
+        
+         <activity android:name=".shipin.Surfaceview"></activity>
+         <activity android:name=".shipin.SD"></activity>
+         <activity android:name=".shipin.main"></activity>
+        
+        
+        <activity android:name=".yinpin.MediaActivity1"></activity>
+        <activity android:name=".yinpin.SD"></activity>
+        <activity android:name=".yinpin.main"></activity>
+        
+        <activity
+            android:name=".hwb.MediaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+       <receiver android:name="MyReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                </intent-filter>
+                </receiver>
+    </application>
+
+</manifest>

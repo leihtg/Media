@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget35"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/m">
+
+    <TextView
+        android:id="@+id/widget37"
+        android:layout_width="match_parent"
+        android:layout_height="52px"
+        android:layout_weight="0.17"
+        android:gravity="center"
+        android:text=" 简易播放器"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+<!-- <RelativeLayout ></RelativeLayout> -->
+    <Button
+        android:id="@+id/yinpin"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.10"
+        android:text="音频"
+        android:textSize="15dp" 
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/shipin"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_weight="0.10"
+        android:text="视频" >
+    </Button>
+
+    <Button
+        android:id="@+id/tupian"
+        android:layout_width="match_parent"
+        android:layout_height="103px"
+        android:layout_weight="0.09"
+        android:text="图片" >
+    </Button>
+
+    <Button
+        android:id="@+id/luxiangji"
+        android:layout_width="match_parent"
+        android:layout_height="103px"
+        android:layout_weight="0.09"
+        android:text="录像机" >
+    </Button>
+
+    <Button
+        android:id="@+id/zhaoxiang"
+        android:layout_width="match_parent"
+        android:layout_height="103px"
+        android:layout_weight="0.09"
+        android:text="照相机" >
+    </Button>
+
+    <TextView
+        android:id="@+id/widget43"
+        android:layout_width="match_parent"
+        android:layout_height="85px"
+        android:layout_marginLeft="240dip"
+        android:layout_weight="0.04"
+        android:gravity="bottom"
+        android:text="版权所有"
+        android:textSize="18sp" />
+
+</LinearLayout>

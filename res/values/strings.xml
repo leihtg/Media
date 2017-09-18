@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MediaActivity!</string>
+    <string name="app_name">简易播放器</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tobig">放大</string>
+    <string name="tosmall">缩小</string>
+    <string name="toleft">左转</string>
+    <string name="toright">右转</string>
+    <string name="the_last_image">这是最后一张图片</string>
+    <string name="the_first_image">这是第一张图片</string>
+	<string name="no_image">没有图片</string>
+	<string name="autoplay">自动播放</string>
+	<string name="fanhui">返回</string>
+</resources>
